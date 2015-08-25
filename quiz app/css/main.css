@@ -1,0 +1,61 @@
+/*
+ * Base structure
+ */
+
+.quiz-page{
+	color: #BBCBCB;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  height: 100%;
+  background: linear-gradient(#502E91, transparent 90%),
+              linear-gradient(0deg, #485665, transparent),
+              #cccccc url("../img/blackboard.jpg") center no-repeat;
+  background-size: cover;
+}
+
+
+/* 
+ * header
+ */
+
+.header {
+	padding: 25px;
+}
+
+.quiz-page a {
+  color: #E3D7FF;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/*
+ * quiz styling
+ */
+
+.main,
+.choices {
+  padding: 25px;
+}
+
+
+#progress {
+  margin-top: 15%;
+  border-top: solid 1px #BBCBCB;
+}
+
+.btn--default {
+  color: #502E91;
+  background: linear-gradient(#BBCBCB, transparent 90%);
+  border-radius: 6px;
+  margin-top: 25px;
+}
+
+
+
+/* 
+ * footer
+ */
+
+ .navbar-fixed-bottom {
+  text-align: center;
+ }
+
