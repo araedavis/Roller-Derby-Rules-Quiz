@@ -15,7 +15,7 @@ var QuizUI = {
   
   displayChoices: function(){
     var choices = quiz.getCurrentQuestion().choices;
-    
+   //add the method to create each button 
     for(var i = 0; i < choices.length; i++){
       this.populateIdWithHTML("choice" + i, choices[i]);
       this.guessHandler("guess" + i, choices[i]);
@@ -28,6 +28,12 @@ var QuizUI = {
     this.populateIdWithHTML("quiz", gameOverHTML);
      
   },
+
+//create a method that creates each button element and assigns it the id choicei
+
+ /* createButtonwithID: function(){
+    var button = document.createElement("button");
+  }, */
 
   populateIdWithHTML: function(id, text){
     var element = document.getElementById(id);
