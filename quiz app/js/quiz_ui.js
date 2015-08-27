@@ -4,6 +4,7 @@ var QuizUI = {
       this.displayScore();
     } else {
       this.displayQuestion();
+      this.CreateButtonsWithIds();
       this.displayChoices();
       this.displayProgress();
     }
@@ -15,9 +16,9 @@ var QuizUI = {
   
   displayChoices: function(){
     var choices = quiz.getCurrentQuestion().choices;
-   //add the method to create each button 
+    
     for(var i = 0; i < choices.length; i++){
-      this.populateIdWithHTML("choice" + i, choices[i]);
+      this.populateIdWithHTML("guess" + i, choices[i]);
       this.guessHandler("guess" + i, choices[i]);
     }
   },
@@ -29,11 +30,16 @@ var QuizUI = {
      
   },
 
-//create a method that creates each button element and assigns it the id choicei
+//create a method that creates buttons relative to number of choices
+  CreateButtonsWithIds: function (){
+    var choices = quiz.getCurrentQuestion().choices;
 
- /* createButtonwithID: function(){
-    var button = document.createElement("button");
-  }, */
+    for(var i = 0; i < choices.length; i++){
+      var button = document.createElement("button");
+      document.getElementById("choices").appendChild(button);
+      button.setAttribute("id", "guess" + i)
+    }
+  },
 
   populateIdWithHTML: function(id, text){
     var element = document.getElementById(id);
