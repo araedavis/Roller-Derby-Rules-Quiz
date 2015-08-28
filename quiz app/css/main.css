@@ -42,11 +42,11 @@
   border-top: solid 1px #BBCBCB;
 }
 
-.btn--default {
+button {
   color: #502E91;
   background: linear-gradient(#BBCBCB, transparent 90%);
   border-radius: 6px;
-  margin-top: 25px;
+  margin: 25px;
 }
 
 
