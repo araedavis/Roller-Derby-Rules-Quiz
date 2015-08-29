@@ -31,15 +31,23 @@ var QuizUI = {
   },
 
 //create a method that creates buttons relative to number of choices
-  CreateButtonsWithIds: function (){
+  CreateButtonsWithIds: function(){
     var choices = quiz.getCurrentQuestion().choices;
-
+    var list = document.getElementById("choices");
+    list.innerHTML = '';
     for(var i = 0; i < choices.length; i++){
       var button = document.createElement("button");
-      document.getElementById("choices").appendChild(button);
+      list.appendChild(button);
       button.setAttribute("id", "guess" + i)
+
     }
   },
+
+  //New method - trying to hide or delete buttons from previous question
+    HidePrevButtons: function(){
+      var choiceDiv = document.getElementById("choices");
+      choiceDiv.removeChild(button);
+    },
 
   populateIdWithHTML: function(id, text){
     var element = document.getElementById(id);
