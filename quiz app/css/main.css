@@ -22,7 +22,7 @@
 }
 
 .quiz-page a {
-  color: #E3D7FF;
+  color: #FFF94F;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -44,9 +44,14 @@
 
 button {
   color: #502E91;
-  background: linear-gradient(#BBCBCB, transparent 90%);
+  background: #0E1116;
+  border: 0px;
   border-radius: 6px;
   margin: 25px;
+  padding: 10px 29px;
+  font-size: 18px;
+  min-width: 100px;
+  max-width: 500px;
 }
 
 
