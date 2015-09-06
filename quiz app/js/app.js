@@ -47,7 +47,7 @@ var questions = [
 
   new Question("23. Which referees are allowed to expel a skater?", ["Any of the Referee staff", "Only the Jammer Referees", "Only the Head Referee", "The Jammer Referees and the Head Referee"], "Only the Head Referee"),
 
-  new Question("24. If an official is not sure whether an action warrants a penalty or expulsion, it must be called as:", ["No Impact/No Penalty", "Penalty", "Explusion"], "No Impact/No Penalty"),
+  new Question("24. If an official is not sure whether an action warrants a penalty or expulsion, it must be called as:", ["No Impact/No Penalty", "Penalty", "Expulsion"], "No Impact/No Penalty"),
 
   new Question("25. Which of the following safety gear may be removed when seated in the penalty box?", ["Helmet", "Mouth guard", "Helmet and Mouth guard", "None of the Above"], "Mouth guard"),
 

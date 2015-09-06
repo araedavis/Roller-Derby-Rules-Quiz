@@ -24,10 +24,12 @@ var QuizUI = {
   },
   
   displayScore: function(){
-    var gameOverHTML = '<h1>Game Over</h1>';
+    var gameOverHTML = '';
+    gameOverHTML += '<h1>Game Over</h1>';
     gameOverHTML += '<h2>Your score is ' + quiz.score + '</h2>';
     if(quiz.score < 34){
       gameOverHTML += '<h4>Better luck next time! You need 80% or higher to pass a WFTDA rules text. Study up <a style="color: #FFF94F" href="http://wftda.com/rules">online</a>!</h4>';
+      
     } else {
       gameOverHTML += "<h4>Nice job! You're ready to crush that WFTDA rules test.</h4>";
     }
@@ -70,7 +72,7 @@ var QuizUI = {
   displayProgress: function(){
     var currentQuestionNumber = quiz.currentQuestionIndex + 1;
     this.populateIdWithHTML("progress", "Question " + currentQuestionNumber + " of " + quiz.questions.length);
-  }
+  },
 
 
 }
