@@ -51,9 +51,8 @@
                   <div class="panel-heading" role="tab" id="headingOne">
 
                     <h4 class="panel-title">
-                      <i class="fa fa-plus"></i>
-                      &nbsp&nbsp&nbsp&nbsp
-                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          
+                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-plus"></i> &nbsp&nbsp&nbsp&nbsp
                        WFTDA Resources
                       </a>
                     </h4>
@@ -72,9 +71,7 @@
                   <div class="panel-heading" role="tab" id="headingOne">
                     
                     <h4 class="panel-title">
-                      <i class="fa fa-plus"></i>
-                      &nbsp&nbsp&nbsp&nbsp
-                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"><i class="fa fa-plus"></i> &nbsp&nbsp&nbsp&nbsp
                        Derby Central
                       </a>
                     </h4>
@@ -93,9 +90,8 @@
                   <div class="panel-heading" role="tab" id="headingThree">
                     
                     <h4 class="panel-title">
-                      <i class="fa fa-plus"></i>
-                      &nbsp&nbsp&nbsp&nbsp
-                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                      
+                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree"><i class="fa fa-plus"></i> &nbsp&nbsp&nbsp&nbsp
                        Roller Derby For Beginners
                       </a>
                     </h4>
@@ -114,10 +110,9 @@
                   <div class="panel-heading" role="tab" id="headingFour">
                     
                     <h4 class="panel-title">
-                      <i class="fa fa-plus"></i>
-                      &nbsp&nbsp&nbsp&nbsp
-                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                       <i>Roller Girl</i>
+                      
+                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour"><i class="fa fa-plus"></i> &nbsp&nbsp&nbsp&nbsp
+                       Roller Girl
                       </a>
                     </h4>
                   </div>
@@ -135,9 +130,9 @@
                   <div class="panel-heading" role="tab" id="headingFive">
                     
                     <h4 class="panel-title">
-                      <i class="fa fa-plus"></i>
+                      
+                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive"><i class="fa fa-plus"></i>
                       &nbsp&nbsp&nbsp&nbsp
-                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                        Left Turn Clothing
                       </a>
                     </h4>
@@ -156,9 +151,9 @@
                   <div class="panel-heading" role="tab" id="headingSix">
                     
                     <h4 class="panel-title">
-                      <i class="fa fa-plus"></i>
+                      
+                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix"><i class="fa fa-plus"></i>
                       &nbsp&nbsp&nbsp&nbsp
-                      <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                        Suggest a resource! 
                       </a>
                     </h4>
@@ -203,24 +198,15 @@
       $(document).ready(function(){
         $('.panel-collapse').on('shown.bs.collapse', function(){
           $(this).parent().find(".fa-plus").removeClass("fa-plus").addClass("fa-minus");
+
         }).on('hidden.bs.collapse', function(){
-          $(this).parent().find("fa.minus").removeClass("fa-minus").addClass("fa-plus");
+          $(this).parent().find(".fa-minus").removeClass("fa-minus").addClass("fa-plus");
         });
 
       });
 
     </script>
 
-    <!--<script>
-      $('.panel-collapse').on('shown.bs.collapse', function(){
-        $('.fa-plus').replaceWith('<i class="fa fa-minus"></i>');
-      });
-
-     $('.panel-collapse').on('hidden.bs.collapse', function(){
-        $('.fa-minus').replaceWith('<i class="fa fa-plus"></i>');
-      })
-
-    </script> -->
 
 </body>
 </html>

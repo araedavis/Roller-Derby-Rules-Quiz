@@ -213,6 +213,12 @@ body,
   color: #FFF94F;
 }
 
+.panel-title a:hover,
+.panel-title a:active
+.panel-title a:visited {
+  text-decoration: none;
+}
+
 
 
 
