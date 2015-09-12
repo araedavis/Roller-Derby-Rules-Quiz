@@ -209,15 +209,21 @@ body,
   color: #502E91;
 }
 
+.panel-collapse {
+  text-decoration: none;
+}
+
 .panel-collapse a {
   color: #FFF94F;
 }
 
+
 .panel-title a:hover,
-.panel-title a:active
-.panel-title a:visited {
+.panel-title a:focus {
   text-decoration: none;
 }
+
+
 
 
 
