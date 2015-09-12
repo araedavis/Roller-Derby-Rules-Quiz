@@ -55,9 +55,18 @@ body,
 .resources,
 .derby-near-me {
   color: #fff;
-  text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
+
+body,
+.derby-near-me {
+    text-align: center;
+}
+
+.resources{
+  text-align: left;
+}
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -185,3 +194,36 @@ body,
     width: 700px;
   }
 }
+
+/*
+* Resources Panels
+*/
+
+.panel-default{
+  background-color: rgb(227, 215, 255);
+  background-color: rgba(227, 215, 255, 0.1);
+}
+
+.panel-title a,
+.panel-title i {
+  color: #502E91;
+}
+
+.panel-collapse a {
+  color: #FFF94F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
