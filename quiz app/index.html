@@ -37,13 +37,13 @@
             <h1 class="cover-heading">Them's the Rules</h1>
             <p class="lead">Studying for your WFTDA rules test? We've got your back.<br>Designed by roller derby skaters, for roller derby skaters. </p>
             <p class="lead">
-              <a href="quiz.html" class="btn btn-lg btn-default">Take the Practice Test!</a>
+              <a href="quiz.html" id="quiz-button" class="btn btn-lg btn-default">Take the Practice Test!</a>
             </p>
           </div>
 
           <div class="mastfoot">
             <div class="inner">
-              <p>Designed by <a href="#">Allison Davis</a>. Filled with admiration towards, but not officially affiliated with, <a href="http://www.wftda.com">WFTDA</a>. </p>
+              <p>Designed by <a href="#">Allison Davis</a>. Photos by <a href="http://www.regularmanphotography.com/">Bill Zingraf</a>. Filled with admiration towards, but not officially affiliated with, <a href="http://www.wftda.com">WFTDA</a>. </p>
             </div> 
           </div>
 
@@ -61,6 +61,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $("#quiz-button").mousedown(function(){
+        $("#quiz-button").css("background-color", "#502E91").css("color", "#fff");
+      })
+    </script>     
 
 </body>
 </html>
