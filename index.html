@@ -1,6 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Roller Derby Rules Quiz</title>
+
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- CSS for cover page -->
+    <link href="css/cover.css" rel="stylesheet">
+
+ 
 </head>
-<body></body>
+
+<body>
+	<div class="site-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="http://www.wftda.com">WFTDA</a></li>
+                  <li><a href="../resources.html">Resources</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Them's the Rules</h1>
+            <p class="lead">Studying for your WFTDA rules test? We've got your back.<br>Designed by roller derby skaters, for roller derby skaters. </p>
+            <p class="lead">
+              <a href="quiz.html" id="quiz-button" class="btn btn-lg btn-default">Take the Practice Test!</a>
+            </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Designed by <a href="#">Allison Davis</a>. Photos by <a href="http://www.regularmanphotography.com/">Bill Zingraf</a>. Filled with admiration towards, but not officially affiliated with, <a href="http://www.wftda.com">WFTDA</a>. </p>
+            </div> 
+          </div>
+
+        </div>
+
+
+
+		</div> <!--end of inner-site-wrapper-->
+
+	</div> <!--end of site-wrapper -->
+	
+
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $("#quiz-button").mousedown(function(){
+        $("#quiz-button").css("background-color", "#502E91").css("color", "#fff");
+      })
+    </script>     
+
+</body>
 </html>
