@@ -1,4 +1,4 @@
-# Roller-Derby-Rules-Quiz-
+# Roller Derby Rules Test
 Practice quiz to prepare beginner roller derby skaters for WFTDA rules test. Vanilla JS and Bootstrap. 
 
 Intended as a study aid. Quiz records a user's score and displays cummulative score at end of quiz.
